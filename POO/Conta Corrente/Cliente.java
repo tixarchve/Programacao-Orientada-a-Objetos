@@ -1,8 +1,11 @@
 import java.util.Vector;
-
 public class Cliente {
 
     String nomeCliente;
+
+    public String getNome(){
+        return nomeCliente;
+    }
     String endereco;
     float saldo = 0;
     boolean ehEspecial;
